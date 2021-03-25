@@ -1,1 +1,3 @@
-
+kind: pipeline
+name: loadmill-periodically
+type: kubernetes
