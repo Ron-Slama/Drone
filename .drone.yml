@@ -1,3 +1,12 @@
 kind: pipeline
 name: loadmill-periodically
 type: kubernetes
+
+
+---
+
+kind: secret
+name: loadmill-key
+get:
+  path: loadmill-key
+  name: key
